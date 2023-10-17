@@ -13,7 +13,7 @@ root.iconbitmap("weather.ico")
 URL = "https://api.openweathermap.org/data/2.5/weather"
 lat_long_URL = "http://api.openweathermap.org/geo/1.0/direct"
 ZIP_URL = "http://api.openweathermap.org/geo/1.0/zip"
-KEY = os.environ.get('API_KEY')
+KEY = "367c7a5a652234a894bb8bc2d75d2770"
 
 def get_country_code(country_name):
     try:
